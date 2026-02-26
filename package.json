@@ -1,0 +1,30 @@
+{
+  "name": "redman",
+  "version": "0.1.0",
+  "description": "TweetDeck-style Reddit desktop client for macOS",
+  "main": "dist/main/index.js",
+  "author": "Christophe Jacobson",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "electron-rebuild",
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview"
+  },
+  "dependencies": {
+    "electron": "^33.3.0",
+    "vue": "^3.5.1",
+    "pinia": "^2.2.0",
+    "axios": "^1.8.1",
+    "keytar": "^7.9.0",
+    "electron-store": "8.x",
+    "dotenv": "^16.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "electron-vite": "^2.3.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^5.4.8",
+    "@electron/rebuild": "^4.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+appId: com.christophe.redman
+productName: RedMan
+directories:
+  output: release
+mac:
+  target: dmg
+  category: public.app-category.productivity
+files:
+  - dist/**/*
+  - node_modules/**/*
